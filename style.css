@@ -10,6 +10,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#home > img {
+    margin-right: 20px;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+#about > img {
+    border-radius: 5%;
+}
 .wrapper {
     width: 1100px;
     margin: auto;
@@ -21,7 +30,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #132043;
+    color: #65451F;
 }
 
 .menu {
@@ -36,9 +45,9 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #FFFFFF;   
+    background: #EAC696;   
     z-index: 1; 
-    border-bottom:1px solid #132043;
+    border-bottom:1px solid #65451F;
 }
 
 nav ul {
@@ -78,47 +87,48 @@ section {
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
-    color:  #132043; 
+    font-family: 'montserrat';
+    color:  #65451F; 
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'montserrat';
     font-weight: 800;
-    font-size: 45px;
+    font-size: 45px;    
     margin-bottom: 20px;
-    color: #132043; 
+    color: #65451F; 
     width: 100%;
     line-height: 50px;
 }
 
 a.tbl-biru {
-    background: #12486B;
+    background: #65451F;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
+    color: #EAC696;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-biru:hover {
-    background: #DA0C81;
+    background: white;
+    color: #65451F;
     text-decoration: none;
 }
 
 a.tbl-pink {
-    background: #DA0C81;
+    background: #65451F;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
+    color: #EAC696;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-pink:hover {
-    background: #12486B;
+    background: white;
     text-decoration: none;
 }
 
@@ -145,16 +155,18 @@ p {
 }
 
 .kartu-kayu img {
-    width: 80%;
-    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10%;
+    object-fit: cover; 
 }
 
 .kartu-kayu p {
-    font-family: 'comic sans ms';
+    font-family: 'montserrat';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #132043;
+    color: #65451F;
 }
 
 .tengah {
@@ -180,12 +192,41 @@ p {
 }
 
 .kartu-kayu p {
-    font-family: 'comic sans ms';
+    font-family: 'montserrat';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #132043;
+    color: #65451F;
 }
+
+.contributor {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10%;
+    object-fit: cover; 
+}
+
+
+.profile {
+    font-family: 'montserrat';
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    color: #65451F;
+}
+
 
 #contact {
     background: #dedede;
@@ -206,12 +247,12 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
+    font-family: 'montserrat';
     font-weight: 1000;
     font-size: 30px;
     margin-bottom: 100px;
     position: top;
-    color: #132043;
+    color: #65451F;
     width: 100%;
     line-height: 0px;
 }
